@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amenazas Comunes - Ciberseguridad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Ciberseguridad</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="amenazas.html">Amenazas Comunes</a></li>
+          <li class="nav-item"><a class="nav-link" href="consejos.html">Consejos de Seguridad</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="container my-5">
+
+  <h1 class="mb-4 text-center">Amenazas Cibernéticas Comunes</h1>
+
+  <!-- Sección de tarjetas -->
+  <div class="row g-4">
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="images/insignia.jpg" class="card-img-top" alt="insignia">
+        <div class="card-body">
+          <h5 class="card-title">Phishing</h5>
+          <p class="card-text">Engaños por correo o sitios falsos que buscan robar información personal.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="images/hacker.jpg" class="card-img-top" alt="hacker">
+        <div class="card-body">
+          <h5 class="card-title">Ransomware</h5>
+          <p class="card-text">Malware que bloquea tus archivos y exige un pago para recuperarlos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="images/ciberseguridad1.jpg" class="card-img-top" alt="ciberseguridad">
+        <div class="card-body">
+          <h5 class="card-title">Malware</h5>
+          <p class="card-text">Software malicioso que daña o controla tu sistema sin permiso.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="images/DDoS.jpg" class="card-img-top" alt="DDoS">
+        <div class="card-body">
+          <h5 class="card-title">Ataques DDoS</h5>
+          <p class="card-text">Saturan servidores o redes para que dejen de funcionar correctamente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carrusel con casos reales -->
+  <h2 class="mt-5 text-center">Casos Reales de Ciberataques</h2>
+
+  <div id="casosCarousel" class="carousel slide mt-3" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="d-block w-100 p-4 bg-light rounded">
+          <h5>Ejemplo 1: Phishing bancario</h5>
+          <p>En 2021, miles de usuarios recibieron correos falsos que imitaban a su banco para robar contraseñas.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-block w-100 p-4 bg-light rounded">
+          <h5>Ejemplo 2: Ransomware a hospitales</h5>
+          <p>Varios hospitales en Europa fueron atacados con ransomware, bloqueando el acceso a historiales médicos.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-block w-100 p-4 bg-light rounded">
+          <h5>Ejemplo 3: Ataque DDoS a plataformas educativas</h5>
+          <p>Durante la pandemia, universidades sufrieron ataques DDoS que interrumpieron sus clases online.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#casosCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#casosCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+</main>
+
+<footer class="bg-dark text-white text-center py-3">
+  <small>&copy; 2025 Eve_Tegler - Proyecto Ciberseguridad</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
